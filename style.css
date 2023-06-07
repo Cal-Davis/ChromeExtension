@@ -17,6 +17,7 @@ button{
     border: none;
     padding: 10px 20px;
     font-weight: bold;
+    border-radius: 4px;
 }
 ul{
     
@@ -35,6 +36,11 @@ li a{
     
     color:#57883b ;
 }
+#input-btn:hover{
+    background-color:  rgba(160, 207, 84, 0.774);
+    border: 1px solid #5f9341;
+
+}
 #delete-btn{
     margin-top: 5px;
     background-color: white;
@@ -46,4 +52,14 @@ li a{
 }
 #delete-btn:hover{
     background-color: rgba(206, 185, 185, 0.733);
+}
+#delete-btn:active{
+    background-color: rgba(40, 161, 40, 0.247);
+}
+#tab-btn:hover{
+    background-color: rgba(160, 207, 84, 0.774);
+    border: 1px solid #5f9341;
+}
+#tab-btn:active{
+    background-color: rgb(215, 250, 222);
 }
